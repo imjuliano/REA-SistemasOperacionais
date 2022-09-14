@@ -1,0 +1,98 @@
+:root {
+    --blackblue: #1A1A2E;
+    --darkblue: #16213E;
+    --blue: #0F3460;
+    --pink: #E94560;
+    --purple: #5432D3;
+    --white: #ffffff;
+  }
+
+
+body{
+    background-color: var(--blackblue);
+}
+
+.title{
+    color: var(--white);
+    padding-top: 2rem;
+}
+
+#subtitle{
+    padding-left: 1.5rem;
+    padding-top: 0.45rem;
+    opacity: 0.7;
+}
+
+
+#flutterlogo{
+    width: 13%;
+}
+
+.title-images img{
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+#reactlogo{
+    width: 20%; !important;
+    height: 90%;
+}
+
+.introducao{
+    margin-top: 1rem;
+    padding: 0.3rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+.introducao2{
+    margin-top: 1rem;
+    padding: 0.3rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.introducao3{
+    margin-top: 1rem;
+    padding: 0.3rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    background-color: #D89216;
+    color: var(--white);
+}
+
+.botoes-fw{
+    outline: white;
+    outline-color: none; !important
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.botoes-fw a{
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+.botoes-fw button{
+    background-color: var(--darkblue);
+}
+
+.construcao{
+    margin-top: 1rem;
+}
+
+#construcaobutton {
+    background-color: var(--white);
+    color: var(--blackblue);
+    font-weight: 500;
+}
+
+btn:active {
+    color:blue;
+  }
+
+  .rodape{
+    background-color: var(--darkblue);
+    color: var(--white);
+  }
